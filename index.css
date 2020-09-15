@@ -10,7 +10,7 @@ body {
   width: 100vw;
   background-image: linear-gradient(
     109.6deg,
-    rgba(238, 58, 136, 1) 11.2%,
+    rgb(235, 174, 200) 11.2%,
     rgba(128, 162, 245, 1) 91.1%
   );
   filter: blur(18px);
@@ -31,7 +31,7 @@ body {
   justify-content: space-evenly;
 }
 #grid {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   border-radius: 1%;
@@ -39,12 +39,16 @@ body {
   justify-content: space-evenly;
   align-content: flex-start;
   align-items: center;
-  background: #3039dc;
+  background-image: linear-gradient(
+    22.6deg,
+    rgb(119, 132, 150) 51.1%,
+    rgb(147, 127, 153) 48.9%
+  );
 }
 .cell {
   height: 60px;
-  width: 10%;
-  margin: 0.5%;
+  width: 10.5%;
+  margin: 0.25%;
   box-sizing: border-box;
   flex-shrink: 0;
   border-radius: 5%;
@@ -54,14 +58,14 @@ body {
   cursor: pointer;
 }
 .blank {
-  background: rgb(226, 215, 163);
+  background: rgb(0, 0, 0);
 }
 .bomb {
   background: red;
   color: rgb(226, 215, 163);
 }
 .safe {
-  background: rgb(156, 235, 124);
+  background: rgba(10, 245, 2, 0.5);
 }
 
 .endscreen {
